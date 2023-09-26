@@ -1,0 +1,50 @@
+[
+    {
+        "tipoUsuario": "cliente",
+        "email": "cliente@example.com",
+        "nombre": "Nombre Cliente",
+        "celular": "123456789",
+        "edad": 30,
+        "fechaNacimiento": "1990-01-01",
+        "direccion": "Calle Principal",
+        "departamento": "Departamento",
+        "municipio": "Municipio",
+        "contrase\u00f1a": "12345678"
+    },
+    {
+        "tipoUsuario": "vendedor",
+        "email": "vendedor@example.com",
+        "nombre": "Nombre Vendedor",
+        "celular": "987654321",
+        "edad": 35,
+        "fechaNacimiento": "1985-03-15",
+        "direccion": "Avenida Secundaria",
+        "departamento": "Otro Departamento",
+        "municipio": "Otro Municipio",
+        "contrase\u00f1a": "1234567890"
+    },
+    {
+        "tipoUsuario": "cliente",
+        "email": "sjdksj@gmail.com",
+        "nombre": "Camilo",
+        "celular": "321",
+        "edad": "22",
+        "fechaNacimiento": "2000-11-12",
+        "direccion": "Mocoa",
+        "departamento": "Putumayo",
+        "municipio": "Mocoa",
+        "contrase\u00f1a": "123"
+    },
+    {
+        "tipoUsuario": "admin",
+        "email": "ilessambonibreinerandres@gmail.com",
+        "nombre": "Andres",
+        "celular": "3227349082",
+        "edad": "18",
+        "fechaNacimiento": "2005-07-12",
+        "direccion": "Mocoa",
+        "departamento": "Putumayo",
+        "municipio": "Mocoa",
+        "contrase\u00f1a": "Nuncasapo12"
+    }
+]
