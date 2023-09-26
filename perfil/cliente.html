@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver y Editar Datos</title>
+    <link rel="stylesheet" href="../css/perfil.css">
+</head>
+<body>
+    <button><a href="../index.html">inicio</a></button>
+    <script src="../js/perfil.js"></script>
+    <button onclick="logout()">cerrar sesion</button>
+    
+    <button  class="product" style="visibility: hidden;" id="product"><a href="../productos/agregar_productos.html" >productos </a></button>
+    <button  class="product" style="visibility: hidden;" id="admin"><a href="../admin/admin.html" >admin</a></button>
+    
+    <header>
+        <h1>Ver y Editar Datos</h1>
+        <p>Bienvenido, <span id="nombrePersona"></span> | <a href="#">Editar</a></p>
+    </header>
+    <div class="container" id="datos-container">
+        <!-- Mostrar datos aquí -->
+    </div>
+    <a href="eliminar.php">Eliminar Datos</a>
+    
+</body>
+</html>
