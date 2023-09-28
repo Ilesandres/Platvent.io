@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="icon" href="../iconos/icono_platvent.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/agregar_productos.css">
+    <script src="../js/validacion.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Agregar Producto</h1>
+        <button class="btn-inicio" type="button"><a href="../index.html">inicio</a></button>
+    </header>
+    <div class="container">
+        <form id="product-form" enctype="multipart/form-data">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="categoria" for="categoria">Categoria:</label>
+            <select id="categoria"  name="categoria" required >
+                <option value="Tecnologia">Tecnologia</option>
+                <option value="Accesorios computadores">accesorios computadores</option>
+                <option value="Ropa">Ropa</option>
+                <option value="Servicios">servicios</option>
+                <option value="Muebles">muebles</option>
+                <option value="Articulos del hogar">articulos del hogar</option>
+            </select>
+            <select id="estado"  name="estado" required >
+                <option value="Nuevo">Nuevo</option>
+                <option value="usado">Usado</option>
+                <option value="usado como nuevo">usado como nuevo</option>
+                <option value="para repuestos">para repuestos</option>
+            </select>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" required></textarea>
+            <label for="valor">Valor:</label>
+            <input type="number" id="valor" name="valor" required>
+            <label for="imagen">Imagen:</label>
+            <p>archivos aceptados: .jpg, .png</p>
+            <input type="file" id="imagen" name="imagen" accept="image/*" required>
+            <button type="submit">Agregar Producto</button>
+        </form>
+    </div>
+    <script src="../js/agregar_productos.js"></script>
+</body>
+</html>

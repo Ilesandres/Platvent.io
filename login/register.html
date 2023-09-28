@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platvent - Registro</title>
+    <link rel="icon" href="../iconos/icono_platvent.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/registro.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro en Platvent</h1>
+        <button type="button"><a style="text-decoration: none;" href="../index.html">inicio</a></button>
+        <div id="registro-form">
+            <h2>Crear una nueva cuenta</h2>
+            <form id="registro-formulario" name="registro-formulario">
+                <label for="tipoUsuario">Tipo de Usuario:</label>
+                <select id="tipoUsuario" name="tipoUsuario">
+                    <option value="cliente">Cliente</option>
+                    <option value="vendedor">Vendedor</option>
+                </select>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="celular">Número de Celular:</label>
+                <input type="tel" id="celular" name="celular" required>
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required>
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+                <label for="departamento">Departamento:</label>
+                <input type="text" id="departamento" name="departamento" required>
+                <label for="municipio">Municipio:</label>
+                <input type="text" id="municipio" name="municipio" required>
+                <label for="municipio">contraseña</label>
+                <input type="text" id="contraseña" name="contraseña" required>
+                <button type="submit" >Registrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/registro.js"></script>
+</body>
+</html>

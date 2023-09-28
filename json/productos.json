@@ -1,0 +1,52 @@
+[
+    {
+        "id": 9,
+        "nombre": "Producto 9",
+        "categoria": "tecnologia",
+        "precio": 12.99,
+        "tienda": "Platvent",
+        "descripcion": "Descripci\u00f3n del producto 9.",
+        "estado": "nuevo",
+        "imagen": "imagen (9).png"
+    },
+    {
+        "id": 10,
+        "nombre": "Producto 10",
+        "categoria": "tecnologia",
+        "precio": 34.99,
+        "tienda": "Platvent",
+        "descripcion": "Descripci\u00f3n del producto 10.",
+        "estado": "nuevo",
+        "imagen": "imagen (10).png"
+    },
+    {
+        "id": 651206159254,
+        "nombre": "Disco solido 1 tb",
+        "categoria": "tecnologia",
+        "precio": "2323",
+        "tienda": "Platvent",
+        "descripcion": "sadsa",
+        "estado": "nuevo",
+        "imagen": "unidad-de-estado-solido-1tg0a.jpg"
+    },
+    {
+        "id": 651489326,
+        "nombre": "auxiliar de audio 5.1",
+        "categoria": "Accesorios computadores",
+        "precio": "650000",
+        "tienda": "Platvent",
+        "descripcion": "\u2022 Soporta audio posicional en 4\/6 CH en modo de altavoz\r\n\u2022 Soporta m\u00fasica directa y acelerac\u00edon de hardware de sonido directo\r\n\u2022 Puerotos de juegos duales de alto rendimiento\r\n\u2022 Interfaz MPU401 compatible MIDI\r\n\u2022 Reproducci\u00f3n de c\u00f3dec de 16-bit y grabaci\u00f3n\r\n\u2022 Compatible con Sound Blaster, Sound Blaster Pro y Microsoft DirectSound\r\n\u2022 Aplicaciones de software incluidos Audio Rack y WinRip\r\n\u2022 Cumple con especificaciones MicrosoftR PC99",
+        "estado": "nuevo",
+        "imagen": "SM-live Values 5.1.jpg"
+    },
+    {
+        "id": 1695934235,
+        "nombre": "otg a microusb",
+        "categoria": "Tecnologia",
+        "precio": "10000",
+        "tienda": "Platvent",
+        "descripcion": "fdsadsadsasdas",
+        "estado": "Nuevo",
+        "imagen": "otg_microusb.png"
+    }
+]
